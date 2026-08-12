@@ -43,29 +43,6 @@ The following are required to run through this project:
 * [Helm v3](https://helm.sh/docs/intro/install/)
 
 ---
-
-Repository Structure
-
-.
-└── project-files/
-├── day1-docker/           # Node.js source, Dockerfile, & local K8s manifest
-│   ├── Dockerfile
-│   ├── package.json
-│   ├── package-lock.json
-│   ├── server.js
-│   └── deployment.yaml
-├── day2-chart/            # Helm deployment chart
-│   ├── Chart.yaml
-│   ├── values.yaml
-│   ├── charts/
-│   └── templates/
-└── day3-terraform-eks/    # Terraform Infrastructure code
-├── eks.tf             # EKS cluster module (v1.32)
-├── providers.tf       # AWS provider setup
-├── variables.tf       # Input variables
-└── vpc.tf             # Dynamic multi-AZ VPC module
-
----
 #######################################################################################################################################################
 #######################################################################################################################################################
 
