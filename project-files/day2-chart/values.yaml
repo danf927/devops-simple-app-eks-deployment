@@ -1,0 +1,21 @@
+# Global App Settings
+replicaCount: 2
+
+image:
+  repository: 883238867992.dkr.ecr.us-west-2.amazonaws.com/day1-app # Update this with your tagged image in the AWS repo
+  tag: v3
+  pullPolicy: IfNotPresent
+
+service:
+  type: LoadBalancer
+  port: 80
+
+env:
+  port: "3000"
+
+
+extraEnv:
+  - name: DB_HOST
+    value: "db.internal.local"
+  - name: DB_PORT
+    value: "5432"
