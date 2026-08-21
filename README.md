@@ -2,6 +2,8 @@
 
 A simple DevOps example project demonstrating cloud infrastructure provisioning on AWS using Terraform, containerizing a simple Node.js web app with Docker, hosting in AWS ECR, and deploying to Amazon EKS using Helm.
 
+**WARNING**:  This project provisions real, billable AWS resources that will continue to incur AWS charges for as long as the infrastructure stays up.
+
 - Last revision:  08/12/2026
 - Author:  Dan Fereday
 
